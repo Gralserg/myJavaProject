@@ -1,4 +1,4 @@
-package school.lesson2;
+package javaLesson1.src.main.java.school.les2;
 
 public class WorkStar1 {
     static boolean visGod(int a) {

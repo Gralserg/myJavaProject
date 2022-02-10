@@ -1,4 +1,4 @@
-package school.lesson2;
+package javaLesson1.src.main.java.school.les2;
 
 public class Work2 {
     static String plusMinus(int a) {

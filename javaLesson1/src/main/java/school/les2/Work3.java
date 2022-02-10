@@ -1,4 +1,4 @@
-package school.lesson2;
+package javaLesson1.src.main.java.school.les2;
 
 public class Work3 {
     static boolean plusNumb(int a) {
