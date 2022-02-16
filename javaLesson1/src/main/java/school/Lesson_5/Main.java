@@ -23,8 +23,7 @@ public class Main {
         System.out.println(Arrays.toString(arr));
 
         System.out.println("Задача 2.");
-        Orange orange = new Orange();
-        Apple apple = new Apple();
+
         Box<Orange> orangeBox1 = new Box();
         Box<Orange> orangeBox2 = new Box();
         Box<Apple> appleBox = new Box();
@@ -63,9 +62,5 @@ public class Main {
         T temp = array[index1];
         array[index1] = array[index2];
         array[index2] = temp;
-    }
-
-    private static <E> List<E> convertToList(E[] array) {
-        return Arrays.asList(array);
     }
 }

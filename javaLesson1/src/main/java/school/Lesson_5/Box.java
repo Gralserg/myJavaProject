@@ -1,7 +1,6 @@
 package javaLesson1.src.main.java.school.Lesson_5;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Box<T extends Fruit> {
@@ -9,14 +8,10 @@ public class Box<T extends Fruit> {
         return list;
     }
 
-    private List<T> list;
-
-    public Box(T... obj) {
-        list = Arrays.asList(obj);
-    }
+    private final List<T> list;
 
     public Box() {
-        list = new ArrayList<T>();
+        list = new ArrayList<>();
     }
 
     void add(T obj) {
@@ -32,7 +27,7 @@ public class Box<T extends Fruit> {
         if (list.isEmpty()) {
             System.out.println("Коробка пуста");
         } else {
-            System.out.println("В коробке " + list.get(0).toString() + " - " + list.size()+" шт.");
+            System.out.println("В коробке " + list.get(0).toString() + " - " + list.size() + " шт.");
         }
     }
 

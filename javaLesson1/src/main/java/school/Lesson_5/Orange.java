@@ -6,6 +6,6 @@ public class Orange extends Fruit {
     }
 
     public String toString() {
-        return "Апельсины";
+        return "апельсины";
     }
 }

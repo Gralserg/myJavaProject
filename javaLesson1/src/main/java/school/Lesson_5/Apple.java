@@ -6,6 +6,6 @@ public class Apple extends Fruit {
     }
 
     public String toString() {
-        return "Яблоки";
+        return "яблоки";
     }
 }
